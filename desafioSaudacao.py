@@ -1,8 +1,8 @@
 horario = int(input("Digitar horário: "))
 
-if horario <12:
+if horario < 12:
     print("Bom dia!")
-elif horario >=12 and horario<18:
+elif horario >= 12 and horario < 18:
     print("Boa tarde!")
 else:
-    print ("Boa noite!")
+    print("Boa noite!")

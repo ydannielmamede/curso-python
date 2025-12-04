@@ -7,8 +7,8 @@ salario1 = float(input("Digitar primeiro salário: "))
 salario2 = float(input("Digitar segundo salário: "))
 salario3 = float(input("Digitar terceiro salário: "))
 
-mediaSalario = (salario1+salario2+salario3)/3
-diferencaSalario = (salario1-salario2)
+mediaSalario = (salario1 + salario2 + salario3) / 3
+diferencaSalario = salario1 - salario2
 
 print(f"Seu nome é: {nome}")
 print(f"Seu estado civil é: {estadoCivil}")
@@ -17,16 +17,3 @@ print(f"Seu endereço é: {endereco}")
 print()
 print(f"Sua média salarial é: {mediaSalario:.2f}")
 print(f"A diferença de salário é: {abs(diferencaSalario):.2f}")
-
-
-
-
-
-
-
-
-
-
-
-
-

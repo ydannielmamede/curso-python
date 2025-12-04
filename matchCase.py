@@ -8,12 +8,12 @@ match numero:
     case 3:
         print("Terça-feira.")
     case 4:
-        print("Quarta-feira.")                                                                                  
+        print("Quarta-feira.")
     case 5:
-        print("Quinta-feira.")  
+        print("Quinta-feira.")
     case 6:
-        print("Sexta-feira.")   
-    case 7:            
+        print("Sexta-feira.")
+    case 7:
         print("Sábado.")
     case _:
         print("Número inválido. Digite um número entre 1 e 7.")
