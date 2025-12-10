@@ -1,6 +1,6 @@
-itens_compra = ["Pão","Leite", "Ovos", "Café", "Açucar"]
+itens_compra = ["Pão", "Leite", "Ovos", "Café", "Açucar"]
 
-print ("--- Lista de compras ---")
+print("--- Lista de compras ---")
 
 for a in itens_compra:
     print(a)
